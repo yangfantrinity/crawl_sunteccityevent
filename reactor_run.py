@@ -9,8 +9,8 @@ It is to get the scrapy result
 from twisted.internet import reactor
 from scrapy.utils.project import get_project_settings
 from scrapy.crawler import Crawler
-from scrapy.settings import Settings
-from scrapy import log, signals
+#from scrapy.settings import Settings
+#from scrapy import log, signals
 from suntec_events.spiders.suntectevent import suntecevent
 from scrapy.xlib.pydispatch import dispatcher
 
